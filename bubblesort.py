@@ -10,3 +10,10 @@ def bubble_sort(numbers):
 
     return numbers
 
+
+def main():
+    numbers = [75, 43, 69, 73, 52, 86, 91, 49, 57, 1]
+    bubble_sort(numbers)
+    print(numbers)
+
+main()

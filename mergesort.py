@@ -30,3 +30,9 @@ def merge(left, right):
     return output
 
 
+def main():
+    unsorted = [75, 43, 69, 73, 52, 86, 91, 49, 57, 1]
+    sorted = merge_sort(unsorted)
+    print(sorted)
+
+main()
